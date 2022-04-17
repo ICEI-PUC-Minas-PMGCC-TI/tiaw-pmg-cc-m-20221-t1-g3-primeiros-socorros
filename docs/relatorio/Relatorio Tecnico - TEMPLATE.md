@@ -169,7 +169,7 @@ Será visto nessa parte do projeto a personalização do cliente ideal para o no
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](docs/relatorio/images/persona.png)
+> ![Exemplo de Persona](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/f940ad77832a8921cc4965d85526390f49b23a6f/docs/relatorio/images/persona.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
