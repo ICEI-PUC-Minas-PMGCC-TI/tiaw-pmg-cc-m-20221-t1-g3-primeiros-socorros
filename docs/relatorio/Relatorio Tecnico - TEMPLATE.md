@@ -83,7 +83,14 @@ Em geral existe um grande déficit no conhecimento de primeiros socorros no Bras
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Objetivo Geral:
+Desenvolver um software para solucionar o déficit no conhecimento de primeiros socorros no Brasil.
+
+Objetivos Específicos:
+* Identificar a causa da falta de conhecimento do problema.
+* Verificar a quantidade de casos onde a falta do estudo de primeiros socorros resultou em fatalidades maiores
+* Comparar a porcentagem de fatalidades onde se existia pessoas com prática em primeiros socorros e aqueles que não a tem
+* Analisar a quantidade de obitos que poderiam ser resolvidos com conhecimento basico em socorrismo
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
