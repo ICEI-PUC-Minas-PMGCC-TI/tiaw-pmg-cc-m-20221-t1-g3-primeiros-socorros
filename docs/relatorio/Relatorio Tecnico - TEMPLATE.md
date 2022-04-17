@@ -281,7 +281,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+> ![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/4fe56e7283b2d192287455ddd7f7f02bcabb8597/docs/relatorio/images/User_flow.png)
 
 
 ## Wireframes
