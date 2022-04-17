@@ -170,6 +170,9 @@ Será visto nessa parte do projeto a personalização do cliente ideal para o no
 > **Exemplo de Persona**
 > 
 > ![Exemplo de Persona](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/f940ad77832a8921cc4965d85526390f49b23a6f/docs/relatorio/images/persona.png)
+> ![Exemplo de Mapa](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/72bfd675ff41ce0477cb1b335e6d3061f8be4cad/docs/relatorio/images/Mapa_de_empatia.png)
+> > ![Exemplo de Persona 2](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/72bfd675ff41ce0477cb1b335e6d3061f8be4cad/docs/relatorio/images/Persona_2.png)
+> ![Exemplo de Mapa 2](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/72bfd675ff41ce0477cb1b335e6d3061f8be4cad/docs/relatorio/images/Mapa_de_empatia_2.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
