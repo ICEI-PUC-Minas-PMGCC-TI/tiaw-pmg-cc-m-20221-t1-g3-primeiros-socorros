@@ -119,7 +119,9 @@ O que impulsionou a realização deste trabalho foi entender a importância de t
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+* gênero: Homens e Mulheres;
+* faixa etária: entre 16 e 40 anos; 
+* escolaridade: ensino medio completo;
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -138,7 +140,7 @@ O que impulsionou a realização deste trabalho foi entender a importância de t
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Será visto nessa parte do projeto a personalização do cliente ideal para o nosso site, o mapa de empatia além das principais funcionalidades que deverão estar presentes no site.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
