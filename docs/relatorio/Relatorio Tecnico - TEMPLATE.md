@@ -1,21 +1,19 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Desconhecimento de primeiros socorros
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciencias da computaçao
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+* Bernardo Lara Afonso
+* Bruno Braga Guimarães Alves
+* Eduardo Reis Gregory  Tavares
+* Raphael Caetano Missiaggia
+* Rodrigo Franchini Cecchin
 
 # Estrutura do Documento
 
