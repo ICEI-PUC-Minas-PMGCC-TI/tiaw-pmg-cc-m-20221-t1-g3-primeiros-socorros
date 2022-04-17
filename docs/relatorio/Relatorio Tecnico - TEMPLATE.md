@@ -54,7 +54,16 @@ Ciencias da computaçao
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Certezas:
+* Existe um desconhecimento geral sobre primeiros socorros
+* Não existe preparo nas escolas perante os primeiros socorros
+* É urgente o ensino de primeiros socorros
+
+Duvidas:
+* Onde se estuda os primeiros socorros?
+* Não temos conhecimento de como prestar os primeiros socorros
+
+Em geral existe um grande déficit no conhecimento de primeiros socorros no Brasil, diferente de países de primeiro mundo como estados unidos que essa prática é passada por todas as escolas do país, o Brasil apenas estimula esse aprendizado através das autoescolas por meio de aulas apenas teóricas sem o uso da matéria pratica.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
