@@ -103,7 +103,7 @@ Objetivos Específicos:
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O que impulsionou a realização deste trabalho foi entender a importância de tornar acessível e pratico a disponibilização desse conhecimento para o público em geral do país, apresentando de maneira simples em nosso site como o estudo de primeiros socorros pode ser fundamental no dia a dia de qualquer pessoa com base em análises e estudos de casos onde foi-se necessário o socorrismo.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
