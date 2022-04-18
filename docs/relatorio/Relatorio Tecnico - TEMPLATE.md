@@ -301,7 +301,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > **Exemplo**:
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Exemplo de Wireframe](https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros/blob/87d9cc3f1899cb2081524705d281a898167eb678/docs/relatorio/images/Wireframe.png)
 
 
 # Metodologia
@@ -344,7 +344,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOB6rcKo=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-t1-g3-primeiros-socorros | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/DqTqrYdJpsYFrDhp1vwxta/Wireframe-TIAW?node-id=0%3A1 | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
