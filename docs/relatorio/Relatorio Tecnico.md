@@ -148,7 +148,28 @@ Será visto nessa parte do projeto a personalização do cliente ideal para o no
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Persona 1
+Nome: Luiza Figueiredo
+Idade: 22-24
+Hobby: Beber socialmente
+Trabalho: Estudante - Estagiaria
+Personalidade: Forte, carismática e divertida
+Sonhos: Terminar o curso e ser uma profissional de qualidade
+Objetos e Lugares: Celular e computador usados para estudo, trabalho e em meio social.
+Objetivos chaves: Celular, a fim de otimizar o tempo por ser o aparelho mais útil para o aprendizado
+Luiza pensa que existe uma urgência no ensino sobre primeiros socorros, sabe também que poucas pessoas tem conhecimento sobre. Ela diz perceber que não existe a divulgação nem o ensino sobre a urgência do problema e possui grande interesse em aprender sobre para que use seu conhecimento na área que deseja trabalhar. Apesar de saber que pessoas acabam sofrendo com esse problema nunca passou por uma situação de necessidade.
+
+Persona 2
+Nome: Beatriz Guimarães
+Idade: 17
+Hobby: Passar tempo com as amigas.
+Trabalho: Estudante
+Personalidade: Extrovertida, sociável
+Sonhos: ...
+Objetos e Lugares: Livros e celular; utiliza em momentos de distração
+Objetivos chaves: Celular, computador; para se informar o que pode ser útil no dia a dia
+Beatriz apesar de saber da urgência do ensino sobre primeiros socorros não demonstra muito interesse em aprender sobre o assunto, ate mesmo por não ouvir muito sobre o assunto devido a falta de atenção do problema.
+
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
