@@ -434,7 +434,14 @@ Foi usado a metodologia Scrum
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+HTML e CSS: Kit básico de criação para a aplicação web..
+JAVASCRIPT: Foi utilizado de acordo com a necessidade da página e todos seus dados foram armazenados em local storage devido a não implementação de backend.
+
+REPLIT: Hospedagem do site.
+
+VSCode: IDE utilizada para a criação do site.
+
+Photoshop: Edição de Imagem.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
