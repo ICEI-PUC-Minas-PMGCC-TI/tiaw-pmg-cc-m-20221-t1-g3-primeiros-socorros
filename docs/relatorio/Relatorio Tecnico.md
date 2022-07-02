@@ -327,7 +327,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-Foi usado a metodologia Scrum
+O processo utilizado diversificou as ferramentas de trabalho a fim de otimizar o procedimento do grupo.
+
+GitHub: Controle de repositório de código.
+Figma: Utilizado para construção do userflow.
+Discord: Comunicação do grupo.
+VSCode: IDE utilizada.
+Miro: Design Thinking.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -347,7 +353,13 @@ Foi usado a metodologia Scrum
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+As funções foram definidas da seguinte maneira:
+
+Raphael Caetano- Repositório Github, Registro de Usuário e Apresentação de Informação.
+Bernardo Lara - Apresentação de Slides, mapa de locais e dinâmica JavaScript.
+Bruno Braga - Apresentação slides, Informações pro projeto e Cadastro de Entidade. 
+Rodrigo Franchini -  Miro, Template Padrão do Site e Cadastro de Usuário.
+
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
