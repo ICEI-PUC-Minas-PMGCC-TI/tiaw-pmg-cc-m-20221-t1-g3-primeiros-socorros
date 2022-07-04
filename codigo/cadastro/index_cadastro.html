@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../reset.css">
+    <link rel="stylesheet" href="style_cadastro.css">
+</head>
+
+<body onload="init()">
+    
+    <header>
+        <nav>
+            <ul class="navigation">
+                <ul class="items-menu"></ul>
+                    <li class="logo">
+                        <img src="../img/logo.png">
+                    </li>
+                    <li class="header-items">
+                        <a href="../index.html">Primeiros socorros</a>
+                    </li>
+                    <li class="header-items">
+                        <a href="../mapa de locais/index_mapa_locais.html">Mapa de Locais</a>
+                    </li>
+                    <li class="header-items">
+                        <a href="./index_memoria.html">Jogo da Memória</a>
+                    </li>
+                    <li class="header-items">
+                        <a href="../contato/index_contato.html">Contato</a>
+                    </li>
+                    <li class="header-items">
+                        <a href="../sobre/index_sobre.html">Sobre nós</a>
+                    </li>
+                    <li class="header-items">
+                        <a href="../login/index_login.html">Login/Cadastro</a>
+                    </li>
+                </ul> 
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Cadastro de usuários</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+               
+        </div>
+
+        <form id="form-contato">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+
+                <div class="col-sm-8">
+                    <label for="inputNome">Nome do usuário:</label>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome do usuário">
+                </div>
+
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-5">
+                    <label for="inputTelefone">Telefone:</label>
+                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Infome o telefone de contato">
+                </div>
+
+                <div class="col-sm-7">
+                    <label for="inputEmail">Município:</label>
+                    <input type="text" class="form-control" id="inputEmail" required placeholder="Informe o município">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputCidade">Idade:</label>
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Informe a Idade" >
+                </div>
+               
+            <div class="form-group row">    
+                <div class="col-sm-6">
+                    <label for="inputnomePet1">Senha:</label>
+                    <input type="text" class="form-control" id="inputnomePet1" required placeholder="Infome a área de atuação">
+                </div>
+            </div>
+
+            <div class="form-group row"> 
+            <div class="col-sm-6">
+                <label for="inputCategoriaPet">Sexo:</label>
+                <input type="text" class="form-control" id="inputCategoriaPet" required placeholder="Informe o Sexo">
+            </div>
+        </div>
+
+            <div class="form-group row">    
+                <div class="col-sm-6">
+                    <label for="inputnomePet2">Email:</label>
+                    <input type="text" class="form-control" id="inputnomePet2" required placeholder="Informe o email">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <a href="lista_contatoc.html"><input type="button" class="btn btn-warning" id="btnClear" value="Pesquisar Contatos"></a>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome do usuário</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">Município</th>
+                            <th scope="col">Idade</th>
+                            <th scope="col">Senha:</th>
+                            <th scope="col">Sexo</th>
+                            <th scope="col">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function exibeContatos() {
+           
+            $("#table-contatos").html("");
+
+           
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];    
+                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                                <td>${contato.cidade}</td>
+                                                <td>${contato.nomepet1}</td>
+                                                <td>${contato.categoriaPet}</td>
+                                                <td>${contato.nomepet2}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            
+            $("#btnInsert").click(function () {
+               
+                if (!$('#form-contato')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+             
+                let campoNome = $("#inputNome").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoCidade = $("#inputCidade").val();
+                let camponomepet1 = $('#inputnomePet1').val();
+                let campoCategoriaPet = $('#inputCategoriaPet').val();
+                let camponomepet2= $('#inputnomePet2').val();
+                let contato = { nome: campoNome, 
+                    telefone: campoTelefone, 
+                    email: campoEmail, 
+                    cidade: campoCidade,
+                    nomepet1: camponomepet1, 
+                    categoriaPet: campoCategoriaPet,
+                    nomepet2: camponomepet2 };
+
+                insertContato(contato);
+
+          
+                exibeContatos();
+
+                $("#form-contato")[0].reset();
+            });
+
+        
+            $("#btnUpdate").click(function () {
+             
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#inputNome").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $("#inputEmail").val();
+                let campoCidade = $("#inputCidade").val();
+                let camponomepet1 = $('#inputnomePet1').val();
+                let campoCategoriaPet = $("#inputCategoriaPet").val();
+                let camponomepet2 = $('#inputnomePet2').val();
+                let contato = { nome: campoNome, 
+                    telefone: campoTelefone, 
+                    email: campoEmail, 
+                    cidade: campoCidade, 
+                    nomepet1: camponomepet1,
+                    categoriaPet: campoCategoriaPet,
+                    nomepet2: camponomepet2 };
+
+                updateContato(parseInt(campoId), contato);
+
+         
+                exibeContatos();
+
+             
+                $("#form-contato")[0].reset();
+            });
+
+         
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteContato(parseInt(campoId));
+
+            
+                exibeContatos();
+
+              
+                $("#form-contato")[0].reset();
+            });
+
+            
+            $("#btnClear").click(function () {
+                $("#form-contato")[0].reset();
+            });
+
+            
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            
+            $("#grid-contatos").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                $("#inputTelefone").val(colunas[2].innerText);
+                $("#inputEmail").val(colunas[3].innerText);
+                $("#inputCidade").val(colunas[4].innerText);
+                $("#inputnomePet1").val(colunas[5].innerText);
+                $("#inputCategoriaPet").val(colunas[6].innerText);
+                $("#inputnomePet2").val(colunas[7].innerText);
+            });
+
+            exibeContatos();
+        }
+    </script>
+</body>
+
+</html>

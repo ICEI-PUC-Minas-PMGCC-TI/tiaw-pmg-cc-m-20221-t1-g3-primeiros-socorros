@@ -1,0 +1,162 @@
+.navigation{
+    display: flex;
+    border-bottom: 1px  solid #807e7e;
+    background-color: #cfcfcf;;
+}
+
+.logo{
+    margin: 5px 200px;
+    z-index: 1;
+    list-style: none;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.items-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    left: 270px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    height: 30px;
+    border-right: 1px solid #807e7e;
+}
+
+.header-items a{
+    text-decoration: none;
+    color: black;
+    font-family: OCR A Std, monospace;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 5px;
+    left: 270px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 30px;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 300px;
+   
+}
+
+h1{
+    text-align: center;
+    color:darkred;
+}
+
+h2{
+    text-align: left;
+    color: royalblue;
+}
+
+h3{
+    text-align: left;
+    color: royalblue;
+}
+
+h4{
+    margin-left: 50px ;
+}
+
+.div1{
+    float: center;
+    margin-top: 100px;
+}
+
+.div2{
+    margin-top: 200px;
+}
+
+.texto{
+    
+    text-align: center;
+}
+
+.tx1{
+    float: left;
+}
+
+p{
+    float: left;
+    
+    text-indent: 30px;
+}
+
+
+.h4{
+    margin-top: 100px;
+    margin-left: 510px;
+}
+
+.ph4{
+    display: table-cell;
+    float: left;
+    width: 900px;
+    margin-left: 250px;
+}
+
+.bb{
+    margin-top: 200px;
+    margin-left: 510px;
+}
+
+.pp{
+    display: table-cell;
+    float: left;
+    width: 900px;
+    margin-left: 250px;
+}
+
+.b1{
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+.pb1{
+    display: table-cell;
+    float: left;
+    width: 900px;
+    margin-left: 250px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    background-color: #cfcfcf;
+    width: 100%;
+    bottom: 0;
+}
+
+.foot spam{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foot img{
+    width: 20%;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="style_login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul class="navigation">
+              <ul class="items-menu"></ul>
+                  <li class="logo">
+                      <img src="../img/logo.png">
+                  </li>
+                  <li class="header-items">
+                      <a href="../index.html">Primeiros socorros</a>
+                  </li>
+                  <li class="header-items">
+                      <a href="../mapa de locais/index_mapa_locais.html">Mapa de Locais</a>
+                  </li>
+                  <li class="header-items">
+                      <a href="./index_memoria.html">Jogo da Memória</a>
+                  </li>
+                  <li class="header-items">
+                      <a href="../contato/index_contato.html">Contato</a>
+                  </li>
+                  <li class="header-items">
+                      <a href="../sobre/index_sobre.html">Sobre nós</a>
+                  </li>
+                  <li class="header-items">
+                      <a href="./index_login.html">Login/Cadastro</a>
+                  </li>
+              </ul> 
+          </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="card">
+        <div class="inner-box" id="card">
+          <div class="card-front">
+            <h2>LOGIN</h2>
+            <form>
+              <input
+                type="email"
+                class="input-box"
+                placeholder="Your Email Id"
+                required
+              />
+              <input
+                type="password"
+                class="input-box"
+                placeholder="Password"
+                required
+              />
+              <button type="submit" class="submit-bnt">Submit</button>
+              <input type="checkbox" /><span>Remember Me</span>
+            </form>
+            <a class="bnt" href="../cadastro/index_cadastro.html">
+              Sou novo aqui
+            </a>
+            <a href="">Forgot Password</a>
+          </div>
+          <div class="card-back">
+            <h2>REGISTER</h2>
+            <form>
+              <input
+                type="text"
+                class="input-box"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                class="input-box"
+                placeholder="Your Email Id"
+                required
+              />
+              <input
+                type="password"
+                class="input-box"
+                placeholder="Password"
+                required
+              />
+              <button type="submit" class="submit-bnt">Submit</button>
+            </form>
+            <button type="button" class="bnt" onclick="openLogin()">
+              I've an account
+            </button>
+            <a href="">Forgot Password</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var card = document.getElementById("card");
+
+      function openLogin() {
+        card.style.transform = "rotateY(0deg)";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+.navigation{
+    display: flex;
+    border-bottom: 1px  solid #807e7e;
+    margin: 0px;
+    background-color: #cfcfcf;;
+}
+
+.logo{
+    margin: 5px 200px;
+    z-index: 1;
+    list-style: none;
+}
+
+.logo img{
+    width: 40px;
+}
+
+#burguermenu{
+    opacity: 0;
+}
+
+label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+    margin-top: 15px;
+}
+
+label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #070604;
+    transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1){
+    top: 0;
+}
+
+label span:nth-child(2){
+    top: 8px;
+}
+
+label span:nth-child(3){
+    top: 16px;
+}
+
+#burguermenu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#burguermenu:checked + label span:nth-child(2){
+    opacity: 0;
+}   
+
+#burguermenu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+#burguermenu:checked ~ .items-menu{
+    opacity: 100;
+}
+
+.items-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    left: 270px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    height: 30px;
+    border-right: 1px solid #807e7e;
+}
+
+.header-items a{
+    text-decoration: none;
+    color: black;
+    font-family: OCR A Std, monospace;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 5px;
+    left: 270px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 30px;
+}
+
+.texto-PAGINA-INICIAL{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-PAGINA-INICIAL p{
+    font-size: 20px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    background-color: #cfcfcf;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.foot spam{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foot img{
+    width: 20%;
+}
