@@ -6,7 +6,6 @@ Desconhecimento de primeiros socorros: Existe um desconhecimento geral da popula
 
 * Bernardo Lara Afonso
 * Bruno Braga Guimarães Alves
-* Eduardo Reis Gregory  Tavares
 * Raphael Caetano Missiaggia
 * Rodrigo Franchini Cecchin
 
